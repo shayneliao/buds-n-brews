@@ -1,0 +1,308 @@
+/* * {
+	border: 1px solid black;
+} */
+
+html {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#main-container {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	min-width: 900px;
+	margin: 10em auto 1em auto;
+	border-radius: 50px;
+	background-color: white;
+	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+}
+
+header {
+	border-radius: 50px 50px 0 0;
+	/* border-bottom: 5px solid rgb(100, 120, 85); */
+	background-image: url(../images/banner.png);
+	height: 160px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3);
+}
+
+#logo {
+	width: 200px;
+	margin: 2em 2em 2em 5em;
+}
+
+header > section {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	/* border-bottom: 4px solid rgb(136, 135, 88); */
+}
+
+header > section > h1 {
+	padding-left: 0.5em;
+	font-size: 2.5rem;
+	color: rgb(17, 52, 0);
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+#panel {
+	display: flex;
+	flex-direction: column;
+	margin: 5em;
+}
+
+nav {
+	height: 50px;
+	width: 60%;
+	min-width: 600px;
+	margin: 0 auto 5em auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(85, 85, 55);
+	border-radius: 100px;
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+}
+
+nav > a {
+	height: 100%;
+	padding: 0 8%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(255, 244, 225);
+	border-radius: 50px;
+	text-decoration: none;
+	transition: background-color 0.5s ease;
+}
+
+nav a:hover {
+	background-color: rgb(251, 214, 207);
+
+	color: rgb(85, 46, 26);
+	text-decoration: none;
+}
+
+#home-main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#home-article > h2 {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 300;
+	font-style: normal;
+	color: rgb(90, 90, 65);
+	margin: 2em 0 0.5em 0;
+}
+
+#home-main > img {
+	width: 500px;
+	border-radius: 10px;
+}
+
+#home-article {
+	flex: 1;
+	margin-left: 3em;
+}
+
+#home-article > p {
+	font-family: sans-serif;
+	text-align: justify;
+	line-height: 2;
+	color: rgb(80, 80, 65);
+	font-size: 1.2rem;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.gallery > article {
+	font-family: sans-serif;
+	color: rgb(90, 90, 65);
+	text-align: justify;
+	line-height: 1.6;
+	width: 30%;
+	margin: 2em;
+}
+
+.gallery > article > img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: rgb(45, 45, 26);
+	margin-bottom: 2em;
+}
+
+footer > a {
+	margin: 1em;
+	padding: 0.6em;
+	width: 30px;
+	height: 30px;
+	background-color: rgb(85, 85, 55);
+	transition: background-color 0.5s ease;
+	border-radius: 100%;
+	color: rgb(255, 255, 255);
+}
+
+footer > a:hover {
+	background-color: rgb(231, 176, 166);
+}
+
+footer > span {
+	flex-basis: 100%;
+	text-align: center;
+	word-spacing: 5px;
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+.contact-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 1px;
+}
+
+form {
+	width: 50%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.contact-form {
+	width: 100%;
+}
+
+table.contact-form td {
+	padding: 0.5em;
+}
+
+table.contact-form label {
+	/* padding-right: 0.5em; */
+	font-family: sans-serif;
+	color: rgb(90, 90, 65);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+	width: 100%;
+	padding: 8px;
+	border: none;
+	border-bottom: 2px solid rgb(85, 85, 55);
+	outline: none;
+	background-color: rgb(220, 230, 220);
+	color: rgb(60, 60, 35);
+}
+
+table.contact-form textarea {
+	width: 100%;
+	padding: 8px;
+	border: none;
+	border-bottom: 2px solid rgb(85, 85, 55);
+	outline: none;
+	background-color: rgb(220, 230, 220);
+	resize: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	border-bottom: 2px solid rgb(20, 125, 22);
+}
+
+button[type="submit"] {
+	margin-top: 2em;
+	border-radius: 50px;
+	width: 30%;
+	padding: 10px;
+	border: none;
+	background-color: rgb(85, 85, 55);
+	color: rgb(255, 244, 225);
+	font-size: 1rem;
+	transition: background-color 0.5s ease;
+}
+
+button[type="submit"]:hover {
+	background-color: rgb(251, 214, 207);
+	color: rgb(85, 46, 26);
+}
+
+table.business-details {
+	padding-left: 1em;
+	border-left: 8px solid rgb(85, 85, 55);
+	margin-bottom: 6em;
+	font-family: sans-serif;
+	color: rgb(90, 90, 65);
+}
+
+table.business-details td {
+	padding: 0.5em 1em;
+}
+
+@media (max-width: 1080px) {
+	.contact-container {
+		flex-direction: column;
+	}
+
+	form,
+	table.business-details {
+		width: 100%;
+	}
+}
+
+:focus-visible {
+	outline: 3px solid #0056b3;
+	outline-offset: 2px;
+}
+
+button:focus-visible {
+	background-color: #0056b3;
+	color: white;
+	outline: 3px solid #f90;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+	outline: 3px solid #f90;
+	outline-offset: 4px;
+}
+
+a:focus-visible {
+	outline: 3px solid #f90;
+}

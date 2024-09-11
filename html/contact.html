@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Buds & Brews</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div id="main-container">
+			<header>
+				<img src="../images/logo.png" alt="logo" id="logo" />
+				<section>
+					<h1>Buds & Brews Plant Cafe</h1>
+				</section>
+			</header>
+			<div id="panel">
+				<nav>
+					<a href="../index.html">Home</a>
+					<a href="../html/gallery.html">Gallery</a>
+					<a href="#">Contact</a>
+				</nav>
+
+				<main id="contact-main">
+					<div class="contact-container">
+						<form name="contactForm" action="#">
+							<table class="contact-form">
+								<tr>
+									<td><label for="name">Name:</label></td>
+									<td><input type="text" id="name" name="name" required /></td>
+								</tr>
+								<tr>
+									<td><label for="address">Address:</label></td>
+									<td><input type="text" id="address" name="address" /></td>
+								</tr>
+								<tr>
+									<td><label for="phone">Phone:</label></td>
+									<td><input type="tel" id="phone" name="phone" required /></td>
+								</tr>
+								<tr>
+									<td><label for="email">Email:</label></td>
+									<td>
+										<input type="email" id="email" name="email" required />
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<label for="newsletter">
+											<input
+												type="checkbox"
+												id="newsletter"
+												name="newsletter"
+												value="subscribe"
+											/>
+											Subscribe to our newsletter
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td><label for="dropdown">Type of Inquiry:</label></td>
+									<td>
+										<select id="dropdown">
+											<option disabled selected>Please Select</option>
+											<option value="feedback">Feedback</option>
+											<option value="request">Request</option>
+											<option value="order">Order</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td><label>Preferred Contact Method:</label></td>
+									<td>
+										<input
+											type="radio"
+											id="emailMethod"
+											name="contactMethod"
+											value="email"
+										/>
+										<label for="emailMethod">Email</label>
+										<input
+											type="radio"
+											id="phoneMethod"
+											name="contactMethod"
+											value="phone"
+										/>
+										<label for="phoneMethod">Phone</label>
+									</td>
+								</tr>
+								<tr>
+									<td><label for="details">Details:</label></td>
+									<td>
+										<textarea id="details" name="details" rows="5"></textarea>
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<p>
+											Enter a username and password if you would like to sign up
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td><label for="username">Username:</label></td>
+									<td>
+										<input type="text" id="username" name="username" required />
+									</td>
+								</tr>
+								<tr>
+									<td><label for="password">Password:</label></td>
+									<td>
+										<input
+											type="password"
+											id="password"
+											name="password"
+											required
+										/>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="text-align: right">
+										<button type="submit" class="myButton" value="Submit">
+											Submit
+										</button>
+									</td>
+								</tr>
+							</table>
+						</form>
+						<table class="business-details">
+							<tr>
+								<td>Contact Name:</td>
+								<td>Hung-Yang Liao</td>
+							</tr>
+							<tr>
+								<td>Email Address:</td>
+								<td>contact@budsandbrews.com</td>
+							</tr>
+							<tr>
+								<td>Location:</td>
+								<td>123 Green Street, Plantville, AU</td>
+							</tr>
+							<tr>
+								<td>Phone Number:</td>
+								<td>(02) 1234 5678</td>
+							</tr>
+						</table>
+					</div>
+				</main>
+			</div>
+		</div>
+		<footer>
+			<a
+				href="https://www.instagram.com/"
+				target="_blank"
+				rel="noopener noreferrer"
+				><img src="../images/instagram-icon.svg" alt="Join us on Instagram"
+			/></a>
+			<a
+				href="https://www.facebook.com/"
+				target="_blank"
+				rel="noopener noreferrer"
+				><img src="../images/facebook-icon.svg" alt="Join us on Facebook"
+			/></a>
+			<a href="https://x.com/" target="_blank" rel="noopener noreferrer"
+				><img src="../images/x-icon.svg" alt="Join us on X"
+			/></a>
+			<span>COPYRIGHT © 2024 Hung-Yang Liao</span>
+		</footer>
+	</body>
+</html>
