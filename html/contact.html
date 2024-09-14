@@ -41,7 +41,15 @@
 								</tr>
 								<tr>
 									<td><label for="phone">Phone:</label></td>
-									<td><input type="tel" id="phone" name="phone" required /></td>
+									<td>
+										<input
+											type="tel"
+											id="phone"
+											name="phone"
+											pattern="[0-9]{10}"
+											required
+										/>
+									</td>
 								</tr>
 								<tr>
 									<td><label for="email">Email:</label></td>
@@ -110,18 +118,13 @@
 								<tr>
 									<td><label for="username">Username:</label></td>
 									<td>
-										<input type="text" id="username" name="username" required />
+										<input type="text" id="username" name="username" />
 									</td>
 								</tr>
 								<tr>
 									<td><label for="password">Password:</label></td>
 									<td>
-										<input
-											type="password"
-											id="password"
-											name="password"
-											required
-										/>
+										<input type="password" id="password" name="password" />
 									</td>
 								</tr>
 								<tr>
