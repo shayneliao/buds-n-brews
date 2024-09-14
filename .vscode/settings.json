@@ -1,0 +1,21 @@
+{
+	"python.defaultInterpreterPath": "C:\\Users\\shayn\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe",
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"files.autoSave": "onFocusChange",
+	"liveServer.settings.port": 5500,
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "prettier.htmlVoidElements": false,
+	"workbench.colorTheme": "Default Dark+",
+	
+}
