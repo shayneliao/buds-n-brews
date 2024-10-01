@@ -23,7 +23,7 @@ html {
 header {
 	border-radius: 50px 50px 0 0;
 	/* border-bottom: 5px solid rgb(100, 120, 85); */
-	background-image: url(../images/banner.png);
+	/* background-image: url(../images/banner.png); */
 	height: 160px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -48,14 +48,14 @@ header > section {
 	/* border-bottom: 4px solid rgb(136, 135, 88); */
 }
 
-header > section > h1 {
+/* header > section > h1 {
 	padding-left: 0.5em;
 	font-size: 2.5rem;
 	color: rgb(17, 52, 0);
 	font-family: "Josefin Sans", sans-serif;
 	font-weight: 500;
 	font-style: normal;
-}
+} */
 
 #panel {
 	display: flex;
