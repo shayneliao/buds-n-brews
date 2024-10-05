@@ -306,3 +306,7 @@ select:focus-visible {
 a:focus-visible {
 	outline: 3px solid #f90;
 }
+
+.opening-hours {
+	vertical-align: top;
+}
