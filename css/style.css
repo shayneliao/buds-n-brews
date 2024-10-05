@@ -45,7 +45,7 @@ header > section {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	/* border-bottom: 4px solid rgb(136, 135, 88); */
+	border-bottom: 4px solid rgb(136, 135, 88);
 }
 
 header > section > h1 {
