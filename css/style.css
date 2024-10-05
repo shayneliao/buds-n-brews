@@ -134,7 +134,7 @@ nav a:hover {
 
 .gallery {
 	display: flex;
-	flex-wrap: nowrap;
+	/* flex-wrap: nowrap; */
 	justify-content: center;
 }
 
