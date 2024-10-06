@@ -310,3 +310,7 @@ a:focus-visible {
 .opening-hours {
 	vertical-align: top;
 }
+
+main > h1 {
+	text-align: center;
+}
