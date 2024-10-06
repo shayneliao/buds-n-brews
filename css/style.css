@@ -71,7 +71,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color: rgb(85, 85, 55);
+	background-color: rgba(235, 13, 9, 0.871);
 	border-radius: 100px;
 	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
 }
