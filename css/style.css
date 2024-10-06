@@ -311,6 +311,6 @@ a:focus-visible {
 	vertical-align: top;
 }
 
-main > h1 {
+main > div > h1 {
 	text-align: center;
 }
